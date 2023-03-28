@@ -1,0 +1,34 @@
+@import "src/styles/Variables.module";
+
+.tabsContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabContent {
+  padding: 2rem;
+  background:$primary-background-color;
+  box-shadow: -1px -1px 10px rgba(204, 204, 203, 0.25), 5px 5px 10px rgba(204, 204, 203, 0.25);
+}
+
+.tabsList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tabItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5625rem;
+  width: 310px;
+  height: 56px;
+  border: 2px solid $third-background-color-tr;
+  border-radius: 5px;
+
+  &.active {
+    background: $third-background-color-tr;
+    font-weight: 700;
+  }
+}
