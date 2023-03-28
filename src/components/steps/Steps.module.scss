@@ -16,12 +16,14 @@
     height: 5.8854vw;
     background: $second-background-color;
     border-radius: $primary-border-radius;
-    padding: 0 $primary-title-font-size;
-    font-size: 1.0416vw;
+    padding: 0 2rem;
+    font-size: 1.25rem;
     font-weight: 400;
 
     &.dedicated {
       outline: 4px solid $third-background-color;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 
     .number {
