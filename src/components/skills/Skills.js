@@ -6,7 +6,7 @@ export const Skills = () => {
     return (
         <section className={style.skillsSection}>
             <div className='container'>
-                <h4 className={style.skillsTitle}>Как мы работаем с потенциальным кандидатом</h4>
+                <h4 className={style.skillsTitle}>Ключевые навыки и качества которыми должен обладать кандидат</h4>
                 <StepsContainer>
                     <StepItem number={1} text='Руководить процессом стройки' />
                     <StepItem number={2} text='Ответственность' />
